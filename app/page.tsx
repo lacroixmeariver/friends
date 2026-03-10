@@ -63,10 +63,11 @@ export default function Home() {
     // </div>
 
     <main>
-      <h1 className="text-4xl">Hi everyone</h1>
-      <p>I'm working on something</p>
-      <div className="flex flex-col gap-4 w-full max-w-sm">
-        <a href="/signup" className="text-white border text-center p-2 m-6 rounded-xl hover:bg-blue-600">
+      
+      <div className="min-h-screen flex flex-col gap-4 items-center justify-center">
+        <h1 className="text-4xl">Hi everyone</h1>
+        <p>I'm working on something</p>
+        <a href="/signup" className="text-white border text-center p-2 m-3 rounded-xl hover:bg-blue-600">
         Sign up here
         </a>
       </div>
